@@ -1,0 +1,328 @@
+body{
+        margin: 0;
+        padding: 0;
+    background-color: rgb(216, 216, 216);}
+
+.menu-image {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    width: 300px;
+    height: 300px;
+}
+.menuItems{
+    display: flex;
+    flex-wrap: column;
+    justify-content: center;    
+}
+
+#home {
+    background-image: url('../img/heroimg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0;
+}
+header {
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 20px;
+    width: 100%;
+    min-height: 150px;
+    padding: 20px 0;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+    box-sizing: border-box;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+.logo-text {
+    font-size: 36px;
+    font-weight: 800;
+    color: rgba(0, 0, 0, 1);
+    color: black;
+    transition: 0.3s;
+    margin: 0;
+}
+
+.nav-links {
+    display: inline-flex;  
+    justify-content: center;
+    gap: 10%;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    width: 90%;
+    margin-bottom: 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 1);
+
+}
+.nav-link:hover {
+    border-radius: 10px;
+    background: #cacaca;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+    transition: 200ms;
+    transform: translateY(-2px) scale(1.05);
+    border: 2px solid transparent;
+}
+
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    font-size: 20px;
+    display: inline-block;
+    padding: 8px 18px;
+    border: 2px solid transparent; /* border одразу тут */
+    box-sizing: border-box;
+    transition: background 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.text1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    color: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    width: 100%;
+    height: 50%;
+    align-items: center;
+    gap: 20px;
+    background-color: rgba(47, 47, 47, 0.6);
+
+
+}
+.btn {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgba(0, 0, 0, 1);
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn:hover {
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    transform:translateY(-5px);
+    transform: scale(1.05);
+    transition: 400ms;
+    transform-origin: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+
+
+footer {
+    background-image: url('../img/heroimg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+.footer1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 ;
+    padding: 0;
+
+    background-color: rgba(47, 47, 47, 0.85);
+    width: 100%;
+
+}
+
+.iconf {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+
+
+}
+.menu1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 5px;
+    border: 5px inset rgba(119, 119, 119, 0.85);
+    width: 100%;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+
+}
+
+.menuItems {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    align-items: stretch;
+}
+.coffee {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.menu-item {
+    width: 30%;
+    height: auto;
+    min-height: 420px;
+    background-color: #402f1c;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+.menu-item:hover {
+    transform: translateY(-5px) scale(1.05);
+    transition: 0.3s;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.7);
+}
+
+.menu-image {
+    width: 100%;
+    height: 400px;   /* КЛЮЧ */
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+.menu-item h3 {
+    margin: 10px 0;
+    font-size: 22px;
+}
+
+.menu-item p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #ccc;
+}
+
+
+#about {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 30px;
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-text {
+    width: 70%;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+
+
+#contact {
+    text-align: center;
+    font-size: 30px;
+    padding: 60px 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+#contact p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+.about-wrapper {
+    display: flex;
+    align-items: stretch; /* КЛЮЧ */
+}
+
+.center-content {
+    width: 60%;
+}
+
+.side-img {
+    width: 20%;
+    border-radius: 3px;
+    object-fit: cover;
+    margin-bottom: 20px; 
+    box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+}
+.n-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgba(0, 0, 0, 1);
+    padding: 10px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
