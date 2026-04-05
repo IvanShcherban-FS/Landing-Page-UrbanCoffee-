@@ -147,7 +147,7 @@ header {
 
 
 footer {
-    background-image: url('../img/heroimg.jpg');
+    background-image: url('../img/heroimg.jpg'); 
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -155,6 +155,7 @@ footer {
     text-align: center;
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
+    
 }
 .footer1 {
     display: flex;
@@ -325,4 +326,7 @@ footer {
     font-family: "Montserrat", sans-serif;
     font-weight: 800;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+html {
+    scroll-behavior: smooth;
 }
